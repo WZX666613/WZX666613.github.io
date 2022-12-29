@@ -10,7 +10,7 @@
 ```c_cpp
 map <string , int> mp;//定义
 mp["xxx"] = 0;//将下标xxx设为1
-mp["xxx"] ++;//将下标xx增加1
+mp["xxx"] ++;//将下标xxx增加1
 ```
 
 ## 优先队列
