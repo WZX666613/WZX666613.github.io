@@ -10,14 +10,15 @@
 ```c_cpp
 map <string , int> mp;//定义
 mp["xxx"] = 0;//将下标xxx设为1
-mp["xxx"] ++;//将下标xxx增加1
+mp["xxx"] ++;//将下标xx增加1
 ```
 
 ## 优先队列
 
 1. 可以直接获取最大的元素
 2. 定义：`priority_queue <数据类型> 变量名`
-3. 和结构体搭配使用是需重载运算符
+
+!>和结构体搭配使用时需重载运算符
 
 ```c_cpp
 priority_queue <int> pq;//定义
@@ -30,8 +31,7 @@ pq.empty();//是不是空的，如果是返回true，不是返回false
 
 ## 结构体
 
-1. 可以将多个类型的变量结合在一个变量里用
-2. 定义：看代码
+过于简单，这里不讲
 
 ### 重载运算符
 
@@ -44,4 +44,14 @@ bool operator < (node b) const//b为参数，bool为需重载运算符的类型 
   if (id < b.id) return true;//bool类型必须返回true或false
   else return false;
 }//重载运算符"<"
+```
+
+# 算法
+
+## dfs深搜
+
+<br/>
+
+```
+
 ```
