@@ -7,7 +7,7 @@
 3. map时间复杂度高于桶，map存取时间复杂度为`O(log n)`，桶为`O(1)`
 4. map会自动初始化，但`char`类型变量不会被初始化为`''`而是ASCII编码为0的字符
 
-```c_cpp
+```cpp
 map <string , int> mp;//定义
 mp["xxx"] = 0;//将下标xxx设为1
 mp["xxx"] ++;//将下标xx增加1
