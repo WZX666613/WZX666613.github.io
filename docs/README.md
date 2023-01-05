@@ -20,7 +20,7 @@ mp["xxx"] ++;//将下标xx增加1
 
 !>和结构体搭配使用时需[重载运算符](/?id=重载运算符)
 
-```c_cpp
+```cpp
 priority_queue <int> pq;//定义
 pq.push(1);//往队列里放一个1
 pq.top();//得到最大的元素
@@ -37,7 +37,7 @@ pq.empty();//是不是空的，如果是返回true，不是返回false
 
 可以自定义运算符的作用，这里只讲作为结构体成员函数用法
 
-```c_cpp
+```cpp
 //放在struct函数内
 bool operator < (node b) const//b为参数，bool为需重载运算符的类型 ， <为需重载的运算符
 {
@@ -95,7 +95,7 @@ int main()
 
 以一本通1215迷宫为例：
 
-```c_cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
@@ -162,7 +162,7 @@ int main()
 
 以一本通1249：Lake Counting为例
 
-```c_cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
