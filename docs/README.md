@@ -18,7 +18,7 @@ mp["xxx"] ++;//将下标xx增加1
 1. 可以直接获取最大的元素
 2. 定义：`priority_queue <数据类型> 变量名`
 
-!>和结构体搭配使用时需重载运算符
+!>和结构体搭配使用时需[重载运算符](/?id=重载运算符)
 
 ```c_cpp
 priority_queue <int> pq;//定义
@@ -48,11 +48,11 @@ bool operator < (node b) const//b为参数，bool为需重载运算符的类型 
 
 # 算法
 
-### dfs深搜
+## dfs深搜
 
 示例：洛谷P1706全排列问题
 
-```c_cpp
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int vis[15] , n;//vis:标记每个数是否已经被放了
@@ -214,3 +214,13 @@ int main()
 	return 0;
 }
 ```
+
+<!--PC版-->
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cywsnJFBv',
+conf: 'prod_ae9aa65be3a3304559fb105d4866d3f0'
+});
+</script>
