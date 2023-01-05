@@ -4,11 +4,16 @@
 
 Hello!
 
-#### **中文**
+#### **French**
 
-你好!
+Bonjour!
+
+#### **Italian**
+
+Ciao!
 
 <!-- tabs:end -->
+
 
 # 函数
 
