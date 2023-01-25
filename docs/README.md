@@ -1,16 +1,12 @@
 <!-- tabs:start -->
 
+#### **简体中文**
+
+你好！
+
 #### **English**
 
 Hello!
-
-#### **French**
-
-Bonjour!
-
-#### **Italian**
-
-Ciao!
 
 <!-- tabs:end -->
 
