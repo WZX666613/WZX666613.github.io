@@ -10,7 +10,6 @@ Hello!
 
 <!-- tabs:end -->
 
-
 # 函数
 
 ## map
@@ -228,7 +227,7 @@ int main()
 }
 ```
 
-# 题解
+# 题解（洛谷）
 
 !>以下题解仅供学习参考使用
 抄袭、复制题解，以达到刷 AC 率/AC 数量或其他目的的行为，在洛谷是严格禁止的。洛谷非常重视学术诚信。此类行为将会导致您成为作弊者。 具体细则请查看洛谷社区规则。(黑题抄题解如果被发现后果自负)
@@ -295,19 +294,19 @@ using namespace std;
 char c[105][1005];
 signed main()
 {
-	int n;
-	cin>>n;
-	for(int i=1;i<=n;i++)
-	{
-		for(int j=1;j<=1000;j++)
-		cin>>c[i][j];
-	}
-	for(int i=1;i<=n;i++)
-	{
-		for(int j=1;j<=1000;j++)
-		cout<<c[i][j];
-	}
-	return 0;
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=1000;j++)
+        cin>>c[i][j];
+    }
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=1000;j++)
+        cout<<c[i][j];
+    }
+    return 0;
 } 
 ```
 
@@ -319,19 +318,19 @@ using namespace std;
 char c[105][1005];
 signed main()
 {
-	int n;
-	cin>>n;
-	for(int i=1;i<=n;i++)
-	{
-		for(int j=1;j<=1000;j++)
-		cin>>c[i][j];
-	}
-	for(int i=1;i<=n;i++)
-	{
-		for(int j=1;j<=1000;j++)
-		cout<<c[i][j];
-	}
-	return 0;
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=1000;j++)
+        cin>>c[i][j];
+    }
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=1000;j++)
+        cout<<c[i][j];
+    }
+    return 0;
 } 
 ```
 
